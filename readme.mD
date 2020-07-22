@@ -22,6 +22,8 @@ This is an API implemented for Codenation acceleration program, the objective he
  - Docker Compose
 
 ## Running the project
+
+
 Install maven dependencies
    
 
@@ -31,6 +33,13 @@ Run postgres container
 
     cd ./docker
     docker-compose up -d
+
+In the first run you will need to create an database with name codenation
+   
+```
+CREATE DATABASE codenation;
+```
+ 
 Run Spring Application
 
     mvn spring-boot:run
