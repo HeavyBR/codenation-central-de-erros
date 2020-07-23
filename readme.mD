@@ -14,7 +14,7 @@ This is an API implemented for Codenation acceleration program, the objective he
  - Spring Actuator
  - Spring Cache
  - OpenAPI 3.0 
- - Jwt
+ - Oauth 2.0
  - Lombok
  - Postgresql
  - Java 11
